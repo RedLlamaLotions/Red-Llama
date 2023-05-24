@@ -103,33 +103,41 @@ body{
   background:url(img/beach.png);
   background-repeat: no-repeat;
   background-size:cover;
-  
-  
+  background-attachment: fixed;
+    
 }
 
-p{
-  font-size: 24px;
-  font-family:  Arial, Helvetica, sans-serif;
-  -webkit-text-stroke-width:1px;
-}
 
-#test img{
-  height: 500px;
-  width:100%;
-}
+  footer{
+    font-family:  Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width:1px;
+     text-align: center;  
+      position:relative;
+      left:0px;
+      bottom:0px;
+      height:30px;
+      width:100%;
+     
+   }
+
+ 
+
+
 
 h1{
  font-family: cursive;
  color: rgb(1, 1, 2);
  text-align: center;
- font-size: 56px;
+ font-size: 100px;
  margin-top: 200px;
- text-shadow:5px 5px 10px #ee4a4ac9;
+ text-shadow:5px 5px 10px #fffbfbc9;
 }
 
 h2{
-  font-size: 24px;
+  font-size: 66px;
   text-align: center;
+  margin-top: 30px;
+  
   
    
 }
@@ -142,37 +150,30 @@ h3 {
 }
 
 h4{
-  margin-top: 25px;
-  font-size: 18pt;
-  color: #000000;
-  
+  text-align: center;
+  margin-top: 40px;
+  font-size: 28pt;
+  color: #040404;
+  cursor: pointer;
  
 }
 
-
-h4:hover{
-  color: rgb(8, 8, 8);
-  background-color: white;
+.body-butters
+{
+  width: 900px;
+  height: 300px;
+  background: rgba(239, 239, 239, 0.517);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
-#pic1:hover {
-
+h5{
+  font-size: 28px;
+  text-align: center;
+  margin-top: 100px;
 }
 
-/*.logo-img{
-  height: 200px;
-  margin-top: 50px;
-
-}*/
-   
-
-
-/*img .small{
-  height: 60px;
-  width: 200px;
- 
-}*/
 
 .medium{
   margin-left: 10px;
@@ -182,8 +183,10 @@ h4:hover{
 
 
 .prod-pic {
-height: 300px;
-margin-left: 20px;
+height: 350px;
+width: 550px;
+border-radius: 20px;
+border: 2px solid black;
 }
 .button-1 {
   height:50px;
@@ -208,8 +211,9 @@ button:hover{
 }
 
 .copyright{
-  font-size: 24px;
-  color: rgb(8, 8, 8);
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 2px #000;
 }
 
 /*.this-fucking-text{   <------------------------------------------------
@@ -244,7 +248,7 @@ button:hover{
 
 .redllama li{
   color: rgb(255, 255, 255);
-  font-size: 50px;
+  font-size: 76px;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-text-stroke:1.5pt #ff0a0a;
   padding: 0px;
@@ -253,19 +257,32 @@ button:hover{
   margin-top: 20px;
 }
 
+.container
+{
+  width: 250px;
+  
+}
+
+.container a 
+{
+ font-size: 28px;
+ height: 55px;
+ text-align: left center;
+}
+
 li {
   padding: 0px;
   display: inline-flex;
   color: rgb(1, 107, 199);
-  font-size: 24px;
   font-family: cursive;
   
 }
 
 nav li a{
-  margin-top: 45px;
+  margin-top: 35px;
   color: rgba(255, 255, 255, 0.957);
   margin-left: 10px;
+  font-size: 18px;
   }
 
 nav li a:hover{
@@ -304,62 +321,6 @@ nav a{
   justify-content: left;
   
 }
-/*---------------------------------------------Feature boxes-----------------------------------------------*/
-
-.featured {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  
-}
-
-.featured .fe-box{
-
-  width: 500px;
-  height: 500px;
-  text-align:left;
-  padding: 25px 25px 15px;
-  background:linear-gradient(rgba(2, 2, 93, 0.564),rgba(0, 0, 255, 0.714),rgba(69, 189, 219, 0.778),rgb(69, 189, 219));
-  box-shadow: 20px 20px 34px black;
-  border: 5px solid #fffafa;
-  border-radius: 20px;
-  margin-right: 80px;
-  margin-left: 80px;
- /* width: 220px;
-  height: 250px;
-  text-align:left;
-  padding: 25px 25px 15px;
-  background-color: #fa000073;
-  box-shadow: 20px 20px 34px #930101c6;
-  border: 1px solid #ff0000;
-  border-radius: 20px;
-  margin-right: 80px;
-  margin-left: 80px;*/
-}
-
-.featured .fe-box:hover{
-  box-shadow: 10px 10px 54px #1658c9d0; 
-}
-
-.featured .fe-box h2 {
-  padding-top: 18px;
-  line-height: 1px;
-  color: rgb(164, 72, 72);
-  text-shadow:5px 5px 10px #fffefe;
-}
-
-.featured .fe-box h2 a{
-  text-decoration: none;
-  color: rgb(5, 5, 5);
-}
-
-
-.featured .fe-box .img {
-  width: 50px;
-  border-radius: 20px;
-}
-
-
 
 
 /*--------------------------------------------Main Pages Fe Boxes------------------------------------------------*/
@@ -386,14 +347,14 @@ nav a{
 }
 
 .main .prod-box:hover{
-  box-shadow: 10px 10px 54px #e57c7cc6; 
+  box-shadow: 10px 10px 54px #ffffffc6; 
 }
 
 .main .prod-box h2 {
   padding-top: 18px;
-  line-height: 1px;
+  line-height: 70px;
   color: rgb(12, 0, 0);
-  text-shadow:5px 5px 10px #ffffff;
+  text-shadow:5px 5px 10px #0d0d0daa;
 }
 
 .main .prod-box h2 a{
@@ -405,6 +366,68 @@ nav a{
 .main .prod-box .img {
   width: 50px;
   border-radius: 20px;
+}
+
+/*---------------------------------------------------------Description Boxes-----------------------------------------------------------*/
+
+h2::before
+{
+  content: attr(data-tooltip);
+  position:fixed;
+  font-size: 36px;  
+  line-height: 50px;
+  text-shadow: none;
+  color:#000;
+  background: rgb(115, 241, 254);
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  clip-path:circle(0rem at center);
+  overflow: hidden;
+  transition: 700ms all ease-in;
+  left: 300px;
+  top: 800px;
+  height: 700px;
+  width: 500px;
+  text-align:left;
+  box-shadow: 10px 10px 10px #000;
+  border-radius: 20px;
+  border:3px solid #000;
   
 }
+
+h2:hover::before {
+  clip-path: circle(40rem at center);
+  top: 500px;
+  left: 1385px;
+
+}
+
+a.tooltip:hover span
+{
+  font-size: 28px;
+}
+
+.prod-pic:hover
+{
+transform: scale(2.5);
+transition: 300ms all ease-in;
+}
+
+
+/*-------------------------------------------------------contact----------------------------------------------------------------*/
+
+.contact
+{
+  height: 1500px;
+  width: 2000px;
+  background: url(img/beach2.png);
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: none;
+  background-size: cover;
+  
+} 
 

@@ -1,0 +1,283 @@
+style.css
+
+style.css
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*----------------------------------------------------------my code----------------------------------------------*/ 
+
+
+body{
+  
+  background:url(img/blue.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  
+    
+}
+
+
+
+
+  footer{
+    font-family:  Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width:1px;
+     text-align: center;  
+      position:fixed;
+      left:0px;
+      bottom:0px;
+      height:30px;
+      width:100%;
+     
+   }
+
+
+
+.button-1 {
+  height:50px;
+  width: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  font-family: cursive;
+  font-size: 25px;  
+  background-image: linear-gradient(rgba(244, 220, 0, 0.531),rgb(209, 38, 38))
+}
+
+
+.button-1 a{
+  font-size: 25;
+  color: #000000;
+  text-decoration: none;
+}
+
+button:hover{
+  box-shadow: 0px 5px 5px 2px #c8b9b9;
+}
+
+.copyright{
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 2px #000;
+}
+
+
+#topbar nav{
+  height:100px;
+  width: 100%;
+  background-color: #1a76b7c3;
+}
+
+#topbar nav:hover{
+  box-shadow: #c8b9b977 10px 10px 10px 10px;
+  opacity: 1;
+}
+
+.redllama li{
+  color: rgb(255, 255, 255);
+  font-size: 76px;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke:1.5pt #ff0a0a;
+  padding: 0px;
+  display: inline-flex;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.container
+{
+  width: 250px;
+  
+}
+
+.container a 
+{
+ font-size: 28px;
+ height: 55px;
+ text-align: left center;
+}
+
+li {
+  padding: 0px;
+  display: inline-flex;
+  color: rgb(1, 107, 199);
+  font-family: cursive;
+  
+}
+
+nav li a{
+  margin-top: 35px;
+  color: rgba(255, 255, 255, 0.957);
+  margin-left: 10px;
+  font-size: 18px;
+  }
+
+nav li a:hover{
+  box-shadow: #00000077 5px 5px 5px 5px;
+  opacity: 1;
+}
+
+.nav {
+  display: flex;
+ 
+
+}
+
+.nav-brand img{
+  width: 100px;
+  height: 70px;
+  display: inline-block; 
+  text-decoration: none;
+  
+}
+
+nav a{
+  margin-top: 100px;
+  width:200px;
+  font-size: 19px;
+  display: inline-block; 
+  text-decoration: none;
+  font-family: cursive;
+  color: rgb(8, 9, 9);
+  text-align:center ;
+  margin: 15px 40px;
+}
+
+.logo img{
+  display: flex;
+  justify-content: left;
+  
+}
+
+/*-------------------------------------------------Text-----------------------------------------------------*/
+
+h1
+{
+  text-align: center;
+  margin-top: 370px;
+  font-size: 72px;
+}
+
+h2
+{
+  text-align: left;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+h3
+{
+  font-size: 36px;
+  text-align: left;
+}
+
+.contact
+{
+  text-align: center;
+  height: 800px;
+  width: 1000px;
+  
+}
+
+.bottomllama img
+{
+  height: 700px;
+  width: 1000px;
+  margin-bottom: 50px;
+  position: relative;
+}
