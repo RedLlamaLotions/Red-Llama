@@ -141,7 +141,7 @@ h1
 
 .navigation .nav
 {  
-  font-size: 200%;
+  font-size: 1vw;
   display: inline-flex;
   font-family: cursive;
   float: left;
@@ -173,11 +173,12 @@ h1
 
 .navtag
 {
-  height: 100px;
-  width: 300px;
   border-radius: 20px;
+  height: 100px;
+  width: 10vw;
   
 }
+
 
 .navtag:hover
 {
