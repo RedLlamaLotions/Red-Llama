@@ -100,7 +100,7 @@ input, select {
 
 body{
   
-  background:url(img/beach.png);
+  background:white;
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment: fixed;
@@ -257,7 +257,7 @@ button:hover{
   margin-top: 20px;
 }
 
-.container
+.container 
 {
   width: 250px;
   

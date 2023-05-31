@@ -1,0 +1,238 @@
+style.css
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*----------------------------------------------------------my code----------------------------------------------*/ 
+
+body{
+  background: white;
+  background-size: cover;
+  position: fixed;
+  margin: 0px;
+}
+
+
+h1
+{
+  font-size: 250%;
+  font-family: sans-serif;
+  margin-top: 25px;
+  margin-left: 50px;
+  -webkit-text-stroke: 2px #030303;
+
+}
+
+
+/*-------------------------------------------Nav Bar--------------------------------------------------------------*/
+
+
+.logo img
+{
+  height:70px;
+  width: 100px;
+  padding-left: 70px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.navigation
+{
+  height: 100px;
+  width: 100%;
+  background: white;
+  position:relative;
+  box-shadow:5px 5px 20px 5px #000;
+  border-radius: 20px;
+}
+
+.navigation .nav
+{  
+  font-size: 200%;
+  display: inline-flex;
+  font-family: cursive;
+  float: left;
+  list-style: none;  
+  
+}
+
+.navigation .nav li
+{
+  padding-left: 100px;
+  margin-top: 35px;
+}
+
+.navigation .nav li a
+{
+  text-decoration: none;
+  color: rgb(5, 5, 5);
+  margin-left: -20px;
+  
+  
+}
+
+.navigation .nav li a:hover
+{
+  color: rgb(255, 0, 4);
+
+
+}
+
+.navtag
+{
+  height: 100px;
+  width: 300px;
+  border-radius: 20px;
+  
+}
+
+.navtag:hover
+{
+  box-shadow:5px 5px 5px 5px #ff00006a;
+
+}
+
+
+
+/*---------------------------------------------------prod boxes--------------------------------------------------*/
+
+.page
+{
+  width: 3500px;
+  height: 2000px;
+  background: red;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top:1%;
+
+}
+
+
+.images
+{
+  height: 1000px;
+  width: 3500px;
+  display: flex;
+  background: black;
+  margin-top: 10%;
+}
+.test1
+{  
+  position: absolute;
+  margin-left: 200px;
+  height: 500px;
+  width: 700px;
+  background: yellow;
+}
+
+.test2
+{
+  margin-left:900px;
+  margin-top: 14.2%;
+}
+
+.test4
+{
+  margin-top:14%;
+}
+
+img
+{
+  height: 500px;
+  width: 700px;
+}
+
